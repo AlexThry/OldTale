@@ -6,8 +6,8 @@ public class Sword extends Weapon {
     int multiTarget;
 
 
-    public Sword(String name, int rarity, double damage, double cooldown, int multiTarget) {
-        super(name,rarity, damage, cooldown);
+    public Sword(String name, int rarity, double damage, double cooldown, double range, int multiTarget) {
+        super(name,rarity, damage, cooldown, range);
         this.multiTarget = multiTarget;
     }
 

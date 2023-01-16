@@ -4,8 +4,8 @@ import gameplay.items.Weapon;
 
 public class Hammer extends Weapon {
     private double radius;
-    public Hammer(String name, int rarity, int damage, double cooldown, double radius) {
-        super(name, rarity, damage, cooldown);
+    public Hammer(String name, int rarity, int damage, double cooldown, double range, double radius) {
+        super(name, rarity, damage, cooldown, range);
         this.radius = radius;
     }
 

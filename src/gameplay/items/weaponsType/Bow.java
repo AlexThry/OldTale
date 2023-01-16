@@ -3,24 +3,24 @@ package gameplay.items.weaponsType;
 import gameplay.items.Weapon;
 
 public class Bow extends Weapon {
-    private double range;
-    public Bow(String name, int rarity, int damage, double cooldown, double range) {
-        super(name, rarity, damage, cooldown);
-        this.range = range;
+    private int direction;
+    public Bow(String name, int rarity, int damage, double cooldown, double range, int direction) {
+        super(name, rarity, damage, cooldown, range);
+        this.direction = direction;
     }
 
     @Override
     public String toString() {
         return "Bow{" +
-                "range=" + range +
+                "direction=" + direction +
                 '}';
     }
 
-    public void setRange(double range) {
-        this.range = range;
+    public int getDirection() {
+        return direction;
     }
 
-    public double getRange() {
-        return range;
+    public void setDirection(int direction) {
+        this.direction = direction;
     }
 }
