@@ -14,3 +14,4 @@ Petit RPG en 2D.
 * Si on ne comprend pas du code, ou son utilité, on peut poser une question soit dans la liste _**Quesions**_ ou directement
 * Documenter les méthodes
 * Lors des commit, ajouter [TEST], [FIX], [FEATURE], [IMPROVEMENT]
+* Pour les graphismes, on peut utiliser [_PixilArt_](https://www.pixilart.com/draw?ref=home-page) par exemple
