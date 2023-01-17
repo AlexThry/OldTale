@@ -3,26 +3,13 @@ package gameplay.items.weaponsType;
 import gameplay.items.Weapon;
 
 public class Sword extends Weapon {
-    int multiTarget;
+    int multi_target;
 
 
-    public Sword(String name, int rarity, double damage, double cooldown, double range, int multiTarget) {
+    public Sword(String name, int rarity, double damage, double cooldown, double range, int multi_target) {
         super(name,rarity, damage, cooldown, range);
-        this.multiTarget = multiTarget;
+        this.multi_target = multi_target;
     }
 
-    @Override
-    public String toString() {
-        return "Sword{" +
-                "multiTarget=" + multiTarget +
-                '}';
-    }
 
-    public int getMultiTarget() {
-        return multiTarget;
-    }
-
-    public void setMultiTarget(int multiTarget) {
-        this.multiTarget = multiTarget;
-    }
 }

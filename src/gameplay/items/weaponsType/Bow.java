@@ -4,7 +4,7 @@ import gameplay.items.Weapon;
 
 public class Bow extends Weapon {
     private int direction;
-    public Bow(String name, int rarity, int damage, double cooldown, double range, int direction) {
+    public Bow(String name, int rarity, int damage, double cooldown, double range, int multi_direction) {
         super(name, rarity, damage, cooldown, range);
         this.direction = direction;
     }
