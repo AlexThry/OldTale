@@ -12,4 +12,3 @@ Petit RPG en 2D.
 * Ne **pas prendre de décisions importantes** sans qu'on en ai discuté avant
 * Décrire les décisions prises de sa propre initiative dans la liste _**Décision perso**_ du Trello
 * Si on ne comprend pas du code, ou son utilité, on peut poser une question soit dans la liste _**Quesions**_ ou directement
-* coucou
