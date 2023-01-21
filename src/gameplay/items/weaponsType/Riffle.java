@@ -4,8 +4,8 @@ import gameplay.items.Weapon;
 
 public class Riffle extends Weapon {
     private double penetration;
-    public Riffle(String name, int rarity, double damage, double cooldown,double range, double penetration) {
-        super(name, rarity, damage, cooldown, range);
+    public Riffle(String name, int rarity, double damage, double cooldown,double range, double stamina_cost, double penetration) {
+        super(name, rarity, damage, cooldown, range, stamina_cost);
         this.penetration = penetration;
     }
 
